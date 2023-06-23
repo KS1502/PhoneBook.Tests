@@ -1,4 +1,4 @@
-package tests;
+package com.tests;
 
 public class User {
     public String email;

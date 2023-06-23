@@ -1,4 +1,4 @@
-package tests;
+package com.tests;
 
 //package com.phonebook.tests;
 
