@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.CreateContactTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-06-22T14:52:40" hostname="VAIO" time="4.117">
+  <properties/>
+  <testcase name="addContactPositiveTest" classname="tests.CreateContactTests" time="4.117"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
