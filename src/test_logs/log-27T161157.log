@@ -1,0 +1,7 @@
+1547 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\Karl Georg\AppData\Local\JetBrains\IdeaIC2022.3\temp-testng-customsuite.xml
+
+10737 [main] INFO  com.tests.TestBase -- Start testRemoveContact with data: []
+34092 [main] ERROR com.tests.TestBase -- FAILED:RemoveContact
+34093 [main] INFO  com.tests.TestBase -- Stop test
+34093 [main] INFO  com.tests.TestBase -- =======================

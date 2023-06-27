@@ -1,5 +1,8 @@
 package com.tests;
 
+import fw.DataProviders;
+import model.Contact;
+import model.User;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -33,6 +36,17 @@ public class CreateContactTests extends TestBase {
         app.getContact().clickOnSaveButton();
         //assert the contact is added
         Assert.assertTrue(app.getContact().isContactCreated("Karl"));
+    }
+
+    @Test(dataProviderClass = DataProviders.class,dataProvider = "addContactFromCsvFile")
+    public void addContactFromCsvFilePositiveTest(Contact contact) {
+
+        app.getHeader().clickOnAddLink();
+        app.getContact().fillAddContactForm(contact);
+
+        app.getContact().clickOnSaveButton();
+
+
     }
 
     @AfterMethod
