@@ -1,6 +1,7 @@
 package com.tests;
 
 
+import model.Contact;
 import model.User;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
@@ -14,9 +15,17 @@ public class RemoveContact extends TestBase{
              .setEmail("kan@gmai.com")
              .setPassword("Kan123$-_$"));
      app.getUser().clickOnLoginButton();
-    // app.getHeader().clickOnAddLink();
-     app.getContact().removeContact();
-     app.getHeader().clickOnSignOutButton();
+     app.getHeader().clickOnAddLink();
+     app.getContact().fillAddContactForm(new Contact()
+             .setName("Karl")
+             .setLastname("Adam")
+             .setPhone("1234567890")
+             .setEmail("kan@gmai.com")
+             .setAddress("Kassel")
+             .setDesc("goalkeeper"));
+     app.getContact().clickOnSaveButton();
+
+
  }
 
     @Test
