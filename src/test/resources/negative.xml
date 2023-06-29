@@ -7,12 +7,12 @@
             <class name="com.tests.HeaderTests" />
             <class name="com.tests.LoginTests">
                 <methods>
-                    <exclude name=".*Positive.*"></exclude>
+                    <exclude name=".*Negative.*"></exclude>
                 </methods>
             </class>
             <class name="com.tests.CreateContactTests">
                 <methods>
-                    <exclude name=".*Positive.*"></exclude>
+                    <exclude name=".*Negative.*"></exclude>
                 </methods>
             </class>
         </classes>

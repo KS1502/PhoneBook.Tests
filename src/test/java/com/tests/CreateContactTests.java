@@ -58,13 +58,16 @@ public class CreateContactTests extends TestBase {
         app.getContact().clickOnSaveButton();
         Assert.assertTrue(app.getContact().isAlertPresent());
 
+    }
+
        @AfterMethod
        public void removeContact() {
 
-           app.getContact().removeElement();
+           app.getContact().removeContact();
       }
     }
-}
 
-/*
-    }*/
+/* @AfterMethod
+    public void postCondition() {
+        app.getContact().removeContact();
+    } */

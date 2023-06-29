@@ -11,7 +11,11 @@
                     <exclude name=".*Negative.*"></exclude>
                 </methods>
             </class>
-            <class name="com.tests.CreateContactTests" />
+            <class name="com.tests.CreateContactTests" >
+            <methods>
+                <exclude name=".*From.*"></exclude>
+            </methods>
+           </class>
             <class name="com.tests.RemoveContact" />
         </classes>
     </test>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.tests.HeaderTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-06-29T08:41:13" hostname="VAIO" time="0.177">
+  <properties/>
+  <testcase name="verifyIsAboutLinkPresent" classname="com.tests.HeaderTests" time="0.027"/>
+  <testcase name="verifyIsHomeLinkPresent" classname="com.tests.HeaderTests" time="0.031"/>
+  <testcase name="verifyIsLoginLinkPresent" classname="com.tests.HeaderTests" time="0.017"/>
+  <testcase name="verifyIsLogoPresent" classname="com.tests.HeaderTests" time="0.024"/>
+  <system-out><![CDATA[10:41:13.808 [Test worker] INFO  com.tests.TestBase -- Start testverifyIsAboutLinkPresent with data: []
+10:41:13.866 [Test worker] INFO  com.tests.TestBase -- PASSED:verifyIsAboutLinkPresent
+10:41:13.867 [Test worker] INFO  com.tests.TestBase -- Stop test
+10:41:13.867 [Test worker] INFO  com.tests.TestBase -- =======================
+10:41:13.870 [Test worker] INFO  com.tests.TestBase -- Start testverifyIsHomeLinkPresent with data: []
+10:41:13.927 [Test worker] INFO  com.tests.TestBase -- PASSED:verifyIsHomeLinkPresent
+10:41:13.927 [Test worker] INFO  com.tests.TestBase -- Stop test
+10:41:13.927 [Test worker] INFO  com.tests.TestBase -- =======================
+10:41:13.929 [Test worker] INFO  com.tests.TestBase -- Start testverifyIsLoginLinkPresent with data: []
+10:41:13.967 [Test worker] INFO  com.tests.TestBase -- PASSED:verifyIsLoginLinkPresent
+10:41:13.967 [Test worker] INFO  com.tests.TestBase -- Stop test
+10:41:13.967 [Test worker] INFO  com.tests.TestBase -- =======================
+10:41:13.970 [Test worker] INFO  com.tests.TestBase -- Start testverifyIsLogoPresent with data: []
+10:41:14.016 [Test worker] INFO  com.tests.TestBase -- PASSED:verifyIsLogoPresent
+10:41:14.017 [Test worker] INFO  com.tests.TestBase -- Stop test
+10:41:14.017 [Test worker] INFO  com.tests.TestBase -- =======================
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
